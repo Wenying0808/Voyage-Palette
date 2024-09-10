@@ -1,0 +1,37 @@
+.navbar{
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.navbar-logo{
+    color:#97999C;
+}
+
+.navbar-spacer {
+    flex: 1 1 auto;
+}
+
+.navbar-tab{
+    color:black;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+.navbar-tab:hover{
+    color:#4758DC;
+}
+
+.navbar-tab:active{
+    color:#4758DC;
+    border-bottom: 1px solid #4758DC;
+}
+
+.navbar-tab-button{
+    color:black;
+}
+
+.navbar-tab-button:hover{
+    color:#4758DC;
+}
+
+/*border-bottom: 1px solid var(--RoyalBlue, #4758DC);*/
