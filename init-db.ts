@@ -1,6 +1,6 @@
 
-import dotenv from 'dotenv';
-import { MongoClient } from 'mongodb';
+const dotenv = require('dotenv');
+const { MongoClient } = require('mongodb');
 
 // Load environment variables from .env file
 dotenv.config();
@@ -26,7 +26,7 @@ const products = [
     price: 2,
     country: "Netherlands",
     imageUrls: ["url3", "url4"],
-    stock: 10
+    stock: 50
   },
   {
     name: "Montserrat",

@@ -23,6 +23,7 @@
     "@angular/platform-server": "^18.2.0",
     "@angular/router": "^18.2.0",
     "@angular/ssr": "^18.2.3",
+    "@types/dotenv": "^8.2.0",
     "@types/mongodb": "^4.0.7",
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
