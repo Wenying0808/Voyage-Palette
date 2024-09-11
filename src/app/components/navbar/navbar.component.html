@@ -1,12 +1,12 @@
 <mat-toolbar class="navbar">
     <span class="navbar-logo">Voyage Palette</span>
     <span class="navbar-spacer"></span>
-    <a class="navbar-tab" routerLink="/about">About</a>
-    <a class="navbar-tab" routerLink="/webshop">Artwork</a>
-    <button mat-icon-button class="navbar-tab-button" aria-label="basket" routerLink="/basket">
+    <a class="navbar-tab" routerLink="/about" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">About</a>
+    <a class="navbar-tab" routerLink="/webshop" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Artwork</a>
+    <button mat-icon-button class="navbar-tab-button" aria-label="basket" routerLink="/basket" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
         <mat-icon>shopping_bag</mat-icon>
     </button>
-    <button mat-icon-button class="navbar-tab-button" aria-label="account" routerLink="/account">
+    <button mat-icon-button class="navbar-tab-button" aria-label="account" routerLink="/account" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
         <mat-icon>account_circle</mat-icon>
     </button>
 </mat-toolbar>

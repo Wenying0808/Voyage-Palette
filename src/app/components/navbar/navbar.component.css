@@ -22,11 +22,6 @@
     color:#4758DC;
 }
 
-.navbar-tab:active{
-    color:#4758DC;
-    border-bottom: 1px solid #4758DC;
-}
-
 .navbar-tab-button{
     color:black;
 }
@@ -35,4 +30,6 @@
     color:#4758DC;
 }
 
-/*border-bottom: 1px solid var(--RoyalBlue, #4758DC);*/
+.active-link{
+    color:#4758DC;
+}
