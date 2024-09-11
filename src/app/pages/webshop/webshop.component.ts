@@ -9,7 +9,7 @@ import { mockProducts } from '../../mockProducts';
   standalone: true,
   imports: [ProductCardComponent, NgFor],
   templateUrl: './webshop.component.html',
-  styleUrl: './webshop.component.css'
+  styleUrl: './webshop.component.scss'
 })
 export class WebshopComponent {
   

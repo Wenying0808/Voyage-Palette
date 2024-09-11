@@ -1,3 +1,5 @@
+@import '../../../styles.scss';
+
 .product-card{
     box-sizing: border-box;
     width: 340px;
@@ -8,7 +10,7 @@
     align-items: flex-start;
     gap: 20px;
     border-radius: 10px;
-    background: var(--White, #FFF);
+    background: $white-color;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
@@ -42,10 +44,10 @@
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    background: var(--Zumtho, #E1EBFF);
+    background: $hover-color;
     cursor: text;
 
-    color: var(--RoyalBlue, #4758DC);
+    color: $primary-color;
     font-size: 12px;
     font-weight: 500;
     line-height: 120%;
@@ -57,7 +59,7 @@
     align-self: stretch;
 }
 .product-card-subheader-price{
-    color: #000;
+    color: $black-color;
     font-size: 14px;
     font-weight: 600;
     line-height: 120%; 
@@ -70,7 +72,7 @@
     gap: 10px;
 }
 .product-card-subheader-bottom-stock{
-    color: var(--Jaffa, #F2994A);
+    color: $warning-color;
     font-size: 12px;
     font-weight: 600;
     line-height: 120%; 

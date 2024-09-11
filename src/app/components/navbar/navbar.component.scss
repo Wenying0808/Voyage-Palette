@@ -1,5 +1,7 @@
+@import '../../../styles.scss';
+
 .navbar{
-    background: #FFF;
+    background: $white-color;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);
     position: fixed;
     top:0;
@@ -8,7 +10,7 @@
 }
 
 .navbar-logo{
-    color:#97999C;
+    color: $secondary-color;
 }
 
 .navbar-spacer {
@@ -16,24 +18,24 @@
 }
 
 .navbar-tab{
-    color:black;
+    color: $black-color;
     padding: 4px 16px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .navbar-tab:hover{
-    color:#4758DC;
+    color: $primary-color;
 }
 
 .navbar-tab-button{
-    color:black;
+    color: $black-color;
 }
 
 .navbar-tab-button:hover{
-    color:#4758DC;
+    color: $primary-color;
 }
 
 .active-link{
-    color:#4758DC;
+    color: $primary-color;
 }
