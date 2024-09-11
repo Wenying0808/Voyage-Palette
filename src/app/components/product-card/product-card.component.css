@@ -30,9 +30,7 @@
 }
 .product-card-header-name{
     color: #000;
-    font-family: "Open Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: 120%;
     cursor: text;
@@ -46,6 +44,11 @@
     border-radius: 4px;
     background: var(--Zumtho, #E1EBFF);
     cursor: text;
+
+    color: var(--RoyalBlue, #4758DC);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
 }
 .product-card-subheader{
     display: flex;
@@ -55,9 +58,7 @@
 }
 .product-card-subheader-price{
     color: #000;
-    font-family: "Open Sans";
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; 
     cursor: text;
@@ -70,9 +71,7 @@
 }
 .product-card-subheader-bottom-stock{
     color: var(--Jaffa, #F2994A);
-    font-family: "Open Sans";
     font-size: 12px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; 
     cursor: text;
