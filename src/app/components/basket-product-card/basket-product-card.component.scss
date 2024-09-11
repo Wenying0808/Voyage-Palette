@@ -1,0 +1,59 @@
+@import '../../../styles.scss';
+
+.basket-product-card{
+    box-sizing: border-box;
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 2px;
+    background: $white-color;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.basket-product-card-image{
+    width: 100px;
+    height: 100px;
+}
+.basket-product-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+    flex: 1 0 0;
+}
+.basket-product-card-info-header{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+
+    overflow: hidden;
+    color: $black-color;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.basket-product-card-info-chip{
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: $hover-color;
+}
+.basket-product-card-info-price{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%; 
+}
+.basket-product-card-action{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
