@@ -12,7 +12,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     </main>
     <router-outlet />
   `,
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'voyage-palette';
