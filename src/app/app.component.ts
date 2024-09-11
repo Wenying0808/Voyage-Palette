@@ -9,8 +9,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   template:`
     <main class="main">
       <app-navbar></app-navbar>
+      <router-outlet />
     </main>
-    <router-outlet />
   `,
   styleUrl: './app.component.css',
 })

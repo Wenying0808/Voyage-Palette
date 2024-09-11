@@ -1,1 +1,6 @@
-<p>webshop works!</p>
+<div class="webshop" >
+    <div class="webshop-product" *ngFor="let product of products">
+        <app-product-card [product]="product"></app-product-card>
+    </div>  
+</div>
+
